@@ -1,0 +1,37 @@
+.login-window-head {
+  display: block;
+  width: 100%;
+  height: 115px;
+  position: relative;
+  background: rgb(157,186,245);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(157,186,245,1) 0%, rgba(129,168,244,1) 27%, rgba(98,134,225,1) 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(157,186,245,1) 0%,rgba(129,168,244,1) 27%,rgba(98,134,225,1) 100%);
+  background: radial-gradient(ellipse at center, rgba(157,186,245,1) 0%,rgba(129,168,244,1) 27%,rgba(98,134,225,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dbaf5', endColorstr='#6286e1',GradientType=1 );
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: url("./login-logo.png") no-repeat center;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    height: 5px;
+    width: 100%;
+    background: rgb(98,134,225);
+    background: -moz-linear-gradient(left, rgba(98,134,225,1) 0%, rgba(244,150,58,1) 52%, rgba(98,134,225,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(98,134,225,1) 0%,rgba(244,150,58,1) 52%,rgba(98,134,225,1) 100%);
+    background: linear-gradient(to right, rgba(98,134,225,1) 0%,rgba(244,150,58,1) 52%,rgba(98,134,225,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6286e1', endColorstr='#6286e1',GradientType=1 );
+  }
+}

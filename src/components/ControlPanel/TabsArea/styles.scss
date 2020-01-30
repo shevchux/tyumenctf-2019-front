@@ -1,0 +1,16 @@
+.cpanel-tab-list {
+  margin: 4px 0 0;
+
+  >ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    >li {
+      flex: 0 1 150px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}

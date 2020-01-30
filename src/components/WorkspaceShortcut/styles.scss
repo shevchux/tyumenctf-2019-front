@@ -1,0 +1,31 @@
+.wspace-shortcut-container {
+  display: block;
+  border: 0;
+  padding: 0;
+  margin: 8px;
+  background: transparent;
+  width: 65px;
+  font-size: 11px;
+  color: #fff;
+  outline: none;
+
+  &:focus>.wspace-shortcut-name {
+    background: #3971c3;
+    border: 1px dotted #fff;
+    text-shadow: none;
+  }
+}
+
+.wspace-shortcut-icon {
+  display: block;
+  margin: 0 auto;
+}
+
+.wspace-shortcut-name {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 10px 0px 0;
+  text-shadow: 1px 1px 2px #000000;
+  border: 1px solid transparent;
+}

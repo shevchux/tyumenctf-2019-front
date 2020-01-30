@@ -1,0 +1,52 @@
+.smenu-installer-body {
+  box-sizing: border-box;
+  font-size: 12px;
+  padding: 0 9px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.smenu-installer-info {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.smenu-installer-progress-bar {
+  border: 1px solid #000;
+  background: #fff;
+  padding: 1px;
+  max-width: 200px;
+
+  .smenu-installer-progress-bar-line {
+    height: 16px;
+    width: 30%;
+    background: #079d05;
+  }
+
+  &.status-after>.smenu-installer-progress-bar-line {
+    background:  #009ddc;
+  }
+
+  &.status-wait>.smenu-installer-progress-bar-line {
+    background: #e4ab01;
+  }
+}
+.smenu-installer-status {
+  margin-bottom: 10px;
+}
+
+.smenu-installer-progress {
+  margin-bottom: 10px;
+  border: 1px solid #e8e8e8;
+  padding: 7px;
+  margin: 0 -7px;
+  background: #f7f7f7;
+}
+
+.smenu-installer-label {
+  margin-bottom: 5px;
+  font-size: 11px;
+}

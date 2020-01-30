@@ -1,0 +1,48 @@
+.wtm-content {
+  display: block;
+  font-size: 11px;
+  background: #ffffe1;
+  color: #000;
+  border-radius: 6px;
+  border: 1px solid #000;
+  padding: 5px 8px;
+  min-width: 250px;
+  cursor: default;
+  position: relative;
+  margin-bottom: 10px;
+  margin-right: -13px;
+
+  &:after {
+    content: "";
+    position: absolute;
+    right: 13px;
+    bottom: -15px;
+    border-color: #ffffe1 #ffffe1 transparent transparent;
+    border-style: solid;
+    border-width: 8px;
+   }
+
+   &:before {
+    content: "";
+    position: absolute;
+    right: 12px;
+    bottom: -17px;
+    border-color: #000 #000 transparent transparent;
+    border-style: solid;
+    border-width: 8px;
+   }
+}
+
+.wtm-title {
+  font-weight: 600;
+  margin-bottom: 5px;
+
+  * {
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+  span {
+    margin-left: 5px;
+  }
+}

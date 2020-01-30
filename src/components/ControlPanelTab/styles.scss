@@ -1,0 +1,95 @@
+.cpanel-tab {
+  background: url("./cpanel-tab-bg2.png") repeat-x 0 0;
+  height: 25px;
+  color: #fff;
+  font-size: 11px;
+  padding: 0 10px;
+  line-height: 25px;
+  position: relative;
+  cursor: default;
+
+  &:hover {
+    background-image: url("./cpanel-tab-bg4.png");
+
+    &:before {
+      background-position: -17px -25px;
+    }
+
+    &:after {
+      background-position: -30px -25px;
+    }
+  }
+
+  &.cpanel-tab-active {
+    background-image: url("./cpanel-tab-bg1.png");
+
+    &:before {
+      background-position: 0 0;
+    }
+
+    &:after {
+      background-position: -13px 0;
+    }
+
+    &:hover {
+      background-image: url("./cpanel-tab-bg3.png");
+  
+      &:before {
+        background-position: -17px 0;
+      }
+  
+      &:after {
+        background-position: -30px 0px;
+      }
+    }
+  }
+
+  &:active {
+    background-image: url("./cpanel-tab-bg1.png");
+
+    &:before {
+      background-position: 0 0;
+    }
+
+    &:after {
+      background-position: -13px 0;
+    }
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    background: url("./cpanel-tab-corners.png") 0 -25px;
+    left: 0;
+    width: 13px;
+    height: 100%;
+    z-index: 1;
+
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    background: url("./cpanel-tab-corners.png") -13px -25px;
+    right: 0;
+    width: 4px;
+    height: 100%;
+    z-index: 1; 
+  }
+}
+
+.cpanel-tab-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 3px;
+}
+
+.cpanel-tab-content {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

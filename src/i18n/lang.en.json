@@ -1,0 +1,287 @@
+{
+  "init": {
+    "getTeamError": {
+      "title": "Error occured while loading team",
+      "button": "Retry",
+      "body": "Could not get information about current team."
+    },
+    "getTasksError": {
+      "title": "System loading message",
+      "button": "Retry",  
+      "body": "Could not get information about tasks."
+    },
+    "login": {
+      "title": "TyumenCTF sign in",
+      "table": {
+        "team": "Login:",
+        "password": "Password:",
+        "loginButtonLabel": "Sign in",
+        "loadingButtonLabel": "Sign in.."
+      },
+      "error": {
+        "title": "System login message",
+        "codeMessage": {
+          "-1": "Server connection error.",
+          "0": "Unknown error",
+          "1": "Login failed. Check that your login and password are correct and retry. Password is case sensitive.",
+          "2": "Contest haven't started yet",
+          "3": "Contest is over",
+          "77": "Failed to login. Your team is disqualified!"
+        }
+      }
+    }
+  },
+  "greeteng": {
+    "title": "Welcome",
+    "description": "Loading personal data..."
+  },
+  "shutdown": {
+    "description": "Logout...",
+    "logoutError": {
+      "title": "Logout error occured",
+      "button": "Back to the contest",
+      "body": "Logout failed! Go back and retry. Or try to clear cookies, you are the hackers, aren't you?"
+    }
+  },
+  "cpanel": {
+    "start": "Start",
+    "tray": {
+      "viewMode": {
+        "title": "View mode",
+        "fullscreen": "Fullscreen mode",
+        "regular": "Standard mode",
+        "bottomOffset": "With bottom margin"
+      },
+      "soundVolume": {
+        "title": "Volume",
+        "titleSoundOn": "Volume (on)",
+        "titleSoundOff": "Volume (off)"
+      },
+      "wallpaper": {
+        "title": "Desktop wallpaper"
+      },
+      "news": {
+        "title": "New message",
+        "body": "Click on this message to open the news window."
+      }
+    }
+  },
+  "startMenu": {
+    "links": {
+      "social": {
+        "vk": {
+          "title": "VK",
+          "subtitle": "Current news"
+        },
+        "telegram": {
+          "title": "Telegram",
+          "subtitle": "What is it?"
+        },
+        "email": {
+          "title": "E-mail"
+        }
+      },
+      "menu": {
+        "rules": "Rules",
+        "rating": "Score",
+        "results": "Contest results",
+        "news": "Messages from the<br>organizers",
+        "games": "Games",
+        "exec": "Run..."
+      }
+    },
+    "footer": {
+      "logout": "Logout"
+    },
+    "times": {
+      "byDays": "{{days}} d. {{hour}} h. {{min}} m.",
+      "byHours": "{{hour}} h. {{min}} m. {{sec}} s.",
+      "leftBySec": "{{count}} second ago",
+      "leftBySec_plural": "{{count}} seconds ago",
+      "leftByMin": "{{count}} minute ago",
+      "leftByMin_plural": "{{count}} minutes ago",
+      "timeFromStart": "Passed since the start of the contest",
+      "timeToStart": "Left before the start of the contest",
+      "before": {
+        "info": "Contest haven't started yet",
+        "status": "Before the contest"
+      },
+      "moment": {
+        "info": "Contest is running",
+        "status": "Till the end"
+      },
+      "after": {
+        "info": "Contest is over",
+        "status": "Till the finish of tasks solving"
+      },
+      "regopen": {
+        "info": "Registration is open",
+        "status": "Till the registration end"
+      },
+      "timeout": "Time is up"
+    },
+    "head": {
+      "update_title": "Update",
+      "rating_loading": "Score updating...",
+      "rating_label_default": "Open score",
+      "rating_label": "{{count}} point ({{place}} place)",
+      "rating_label_plural": "{{count}} points ({{place}} place)"
+    }
+  },
+  "w-dir": {
+    "altTabs": ["File", "Edit", "View", "Favorites", "Tools", "Help"],
+    "address": "Address:",
+    "refresh": "Update",
+    "refresh-loading": "Updating...",
+    "refresh-loaded": "Updated"
+  },
+  "w-rules": {
+    "title": "Rules of participation",
+    "title-full": "RULES",
+    "subtitle": "Check out the rules of TyumenCTF 2019",
+    "info": "You need to check out the rules, think about it, understand and agree with it to participate. Pay special attention to task's cost and scoring system. Use scroll bar to read text.",
+    "rules-body": "RULES OF TYUMENCTF 2019\n\nIMPORTANT!READ CAREFULLY!\n\nEach task contains hidden information called as \"flag\". The flag is a task's solution. Format of the flag is TyumenCTF{...}, unless otherwise instructed in a task. There can be any non-cyrillic characters in braces. You should match case in \"TyumenCTF\"  when sending the flag\n\nStarting point cost of each task is 1000. The task's point cost will decrease every time any team will solve this task. In other words the more teams will solve this task the lower it's point costs. Task's point costs are colculated according to a special formula. Minimal cost of a task is 100 points. Teams' score are recalculated every time task's cost reduces. Don't be surprised to see your team's score is lower than you expected. It only means that another teams solves tasks :) Remember that points are decreased for every team had already solved this task. Think about strategy of tasks choosing and solving.\n\nA team scored the highest inside their category (schools or students) is the winner. In case of two or more teams have the same score, then winner is the one who scored earlier.\n\n You are NOT allowed to:\n\t*attack the game infrastructure facilities operated by organizers.\n\t*attack other teams (mentally, phisically, by any hacks).\n\t*share flags and solutions with other teams before competition is over.\n\t*generate large amount of traffic that poses a threat to network stability of any other team.\n\nAny team violated any rule will be disqualified.\n\nIt is better to send messages via Telegram, our group in VK or via e-mail: <a href=\"mailto:team@tyumenctf.ru\">team@tyumenctf.ru</a> to get quick response from jury.\n\nSome tasks could be easy for you and we are glad that you are so skillfull and clever. Some tasks could be hard, so you have to make an effort to solve it. Some tasks are tricky, but you should not ask jury how to solve it.\n\nSome troubles could happen during the contest which we try to solve as soon as possible. Any way we ask you to be understanding. We makes TyumenCTF because we like it, we want to test our skills and give an opportunity for everyone to try themselves in InfoSec. We appreciate reasonable criticism and any suggestions which make sense, but lets be more friendly! Good luck! We hope you'll enjoy and discover something new! \n\n<i>TyumenCTF 2019 organizers</i>"
+  },
+  "w-category": {
+    "list-title": "All categories",
+    "cat-info": {
+      "title": "More",
+      "subtitle": "Task category",
+      "tasksCount": "Tasks count:",
+      "tasksSolved": "Solved:"
+    },
+    "table": {
+      "name": "Name",
+      "price": "Current cost",
+      "status": "Status",
+      "teamsSolved": "Teams solved",
+      "labels": {
+        "solved": "Solved",
+        "not-solved": "Not solved"
+      }
+    }
+  },
+  "w-exec": {
+    "title": "Execute command",
+    "subtitle": "Enter the command to execute it",
+    "hint": "There may be easter eggs",
+    "open": "Open:",
+    "cancel": "Cancel",
+    "cases": {
+      "kick": "You are disqualified!",
+      "kick_prank": "Okay, it's a joke, but the page will reload",
+      "use_gui": "Nope, use the GUI. We did the best we could!",
+      "old_games": "You are smart. Our respect to olds. The old games section added to  your start menu. Just don't play it out, the time is coming!",
+      "unknown_command": "Unknown command"
+    }
+  },
+  "w-rating": {
+    "title": "Teams scoring",
+    "groups": "Team categories",
+    "position": {
+      "title": "Your score",
+      "score": "Points:",
+      "place": "Place:",
+      "globalPlace": "Global place:",
+      "solveup": "Solve up",
+      "results": "Contest results",
+      "out": "Go »"
+    },
+    "table": {
+      "name": "Team",
+      "score": "Points",
+      "tasksSolved": "Tasks solved",
+      "lastSend": "Last solved task",
+      "you": "(you)"
+    }
+  },
+  "w-task": {
+    "title": "Task: {{name}}",
+    "tab1": {
+      "title": "Details",
+      "price": "Cost:",
+      "points": "{{count}} point",
+      "points_plural": "{{count}} points",
+      "solved": "Solved:",
+      "teams": "{{count}} team",
+      "teams_plural": "{{count}} teams",
+      "updated": "Updated:",
+      "updating": "Updating...",
+      "update": "Update ↺",
+      "loading": "Loading...",
+      "attaches": "Attachments:",
+      "status": "Status:",
+      "status_solved": "✔ Solved",
+      "status_not_solved": "Not solved",
+      "flag": "Flag:",
+      "send": "Send",
+      "sending": "Sending...",
+      "codes": {
+        "-1": "Server communication error",
+        "1": "Incorrect flag",
+        "2": "Task has already solved",
+        "3": "Flags are no longer accepted"
+      },
+      "code_unknown": "Unknown error"
+    },
+    "tab2": {
+      "title": "Solved ({{count}})",
+      "loading": "Loading...",
+      "subtitle": "This task have been solved by {{count}} team",
+      "subtitle_plural": "This task have been solved by {{count}} teams"
+    }
+  },
+  "w-team": {
+    "title": "Team info",
+    "subtitle": "Team",
+    "loading": "Loading...",
+    "error": "Error :(",
+    "retry": "Retry",
+    "members": "{{count}} member",
+    "members_plural": "{{count}} members",
+    "solved": "Solved:",
+    "tasks": "{{count}} task out of {{outOfCount}}",
+    "tasks_plural": "{{count}} tasks out of {{outOfCount}}",
+    "updated": "Updated:",
+    "updating": "Updating...",
+    "update": "Update ↺",
+    "emptyTaskList": "The team has solved no tasks yet",
+    "score": "Points:",
+    "points": "{{count}} point",
+    "points_plural": "{{count}} points",
+    "place": "Place:"
+  },
+  "w-wallpaper": {
+    "title": "My computer",
+    "tabTitle": "Desktop",
+    "info": "Select a desktop wallpaper from the options or link the external URL of image you want.",
+    "placeholder": "Picture's URL",
+    "button": "Add",
+    "noURL": "The input string is not a link",
+    "noImage": "The input string is not a link to the image."
+  },
+  "w-news": {
+    "title": "Messages from the organizers",
+    "loading": "Loading...",
+    "h3": "Messages from the organizers ({{count}})",
+    "empty": "It is empty here",
+    "time_from": "{{time}} after the start",
+    "time_to": "{{time}} before the start",
+    "feedback": {
+      "title": "Contest is over",
+      "body": "Thank you for participating. Please fill out the feedback form:"
+    }
+  },
+  "config": {
+    "lang": {
+      "current": "EN",
+      "name": "English"
+    },
+    "teamGroups": {
+      "0": "All teams",
+      "1": "University, college",
+      "2": "School",
+      "4": "Out of score"
+    }
+  }
+}

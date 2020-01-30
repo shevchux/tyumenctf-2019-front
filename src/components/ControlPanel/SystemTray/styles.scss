@@ -1,0 +1,65 @@
+.cpanel-stray-container {
+  height: 30px;
+  background: url("./tray.png") repeat-x;
+  color: #fff;
+  font-size: 0;
+  padding-right: 15px;
+
+  &:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width: 4px;
+    background: url("./tray-separator.png") no-repeat;
+    padding-right: 7px;
+  }
+}
+
+.cpanel-stray-buttons {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+
+  >ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+
+    >li {
+      display: inline-block;
+      margin-right: 5px;
+      margin-left: 3px;
+    }
+  }
+}
+
+.cpanel-stray-button {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  color: transparent;
+  font-size: 0;
+  height: 16px;
+  width: 16px;
+  outline: none;
+}
+
+.cpanel-stray-clocks {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  cursor: default;
+}
+.cpanel-stray-volume-pointer {
+  position: relative;
+}
+
+.cpanel-stray-volume-range {
+  position: absolute;
+  bottom: 100%;
+  right: 50%;
+  z-index: 9999999999;
+}

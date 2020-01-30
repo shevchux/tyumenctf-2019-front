@@ -1,0 +1,246 @@
+{
+  "Categories": [
+    {
+      "Id": 1, 
+      "Name": "Web"
+    }, 
+    {
+      "Id": 13, 
+      "Name": "Misc"
+    }, 
+    {
+      "Id": 14, 
+      "Name": "PPC"
+    }, 
+    {
+      "Id": 15, 
+      "Name": "Reverse"
+    }, 
+    {
+      "Id": 16, 
+      "Name": "Osint"
+    }, 
+    {
+      "Id": 17, 
+      "Name": "Crypto"
+    }
+  ], 
+  "Tasks": [
+    {
+      "CatId": 1, 
+      "Count": 0, 
+      "Name": "Task 1", 
+      "Price": 100, 
+      "Solved": true, 
+      "TaskId": 2
+    }, 
+    {
+      "CatId": 1, 
+      "Count": 0, 
+      "Name": "Task 1", 
+      "Price": 100, 
+      "Solved": false, 
+      "TaskId": 3
+    }, 
+    {
+      "CatId": 1, 
+      "Count": 0, 
+      "Name": "Task 1", 
+      "Price": 100, 
+      "Solved": false, 
+      "TaskId": 4
+    }, 
+    {
+      "CatId": 1, 
+      "Count": 0, 
+      "Name": "Task 1", 
+      "Price": 100, 
+      "Solved": false, 
+      "TaskId": 5
+    }, 
+    {
+      "CatId": 1, 
+      "Count": 0, 
+      "Name": "Task 1", 
+      "Price": 100, 
+      "Solved": false, 
+      "TaskId": 6
+    }, 
+    {
+      "CatId": 1, 
+      "Count": 0, 
+      "Name": "Task 1", 
+      "Price": 100, 
+      "Solved": false, 
+      "TaskId": 7
+    }, 
+    {
+      "CatId": 13, 
+      "Count": 44, 
+      "Name": "Intro", 
+      "Price": 10, 
+      "Solved": false, 
+      "TaskId": 103
+    }, 
+    {
+      "CatId": 13, 
+      "Count": 28, 
+      "Name": "\u0422\u0440\u0438 \u0432 \u043e\u0434\u043d\u043e\u043c", 
+      "Price": 100, 
+      "Solved": false, 
+      "TaskId": 101
+    }, 
+    {
+      "CatId": 13, 
+      "Count": 5, 
+      "Name": "Dante's Inferno", 
+      "Price": 150, 
+      "Solved": false, 
+      "TaskId": 90
+    }, 
+    {
+      "CatId": 13, 
+      "Count": 2, 
+      "Name": "Minds in my head", 
+      "Price": 300, 
+      "Solved": false, 
+      "TaskId": 102
+    }, 
+    {
+      "CatId": 14, 
+      "Count": 25, 
+      "Name": "1200 and 1 flag", 
+      "Price": 100, 
+      "Solved": false, 
+      "TaskId": 92
+    }, 
+    {
+      "CatId": 14, 
+      "Count": 5, 
+      "Name": "Monstrous", 
+      "Price": 200, 
+      "Solved": false, 
+      "TaskId": 110
+    }, 
+    {
+      "CatId": 14, 
+      "Count": 7, 
+      "Name": "Space cat", 
+      "Price": 300, 
+      "Solved": false, 
+      "TaskId": 104
+    }, 
+    {
+      "CatId": 14, 
+      "Count": 0, 
+      "Name": "Graph master", 
+      "Price": 400, 
+      "Solved": false, 
+      "TaskId": 91
+    }, 
+    {
+      "CatId": 15, 
+      "Count": 26, 
+      "Name": "Sharp skills", 
+      "Price": 100, 
+      "Solved": false, 
+      "TaskId": 94
+    }, 
+    {
+      "CatId": 15, 
+      "Count": 1, 
+      "Name": "Call me by my name", 
+      "Price": 200, 
+      "Solved": false, 
+      "TaskId": 109
+    }, 
+    {
+      "CatId": 15, 
+      "Count": 0, 
+      "Name": "Keygen", 
+      "Price": 300, 
+      "Solved": false, 
+      "TaskId": 93
+    }, 
+    {
+      "CatId": 16, 
+      "Count": 8, 
+      "Name": "MoreCSS", 
+      "Price": 700, 
+      "Solved": true, 
+      "TaskId": 96
+    }, 
+    {
+      "CatId": 16, 
+      "Count": 20, 
+      "Name": "BGs", 
+      "Price": 200, 
+      "Solved": false, 
+      "TaskId": 95
+    }, 
+    {
+      "CatId": 16, 
+      "Count": 2, 
+      "Name": "GIT to the future", 
+      "Price": 300, 
+      "Solved": false, 
+      "TaskId": 97
+    }, 
+    {
+      "CatId": 16, 
+      "Count": 4, 
+      "Name": "Robots", 
+      "Price": 400, 
+      "Solved": false, 
+      "TaskId": 98
+    }, 
+    {
+      "CatId": 17, 
+      "Count": 12, 
+      "Name": "\u041d\u0435 \u043f\u0438\u043a\u0442\u043e\u0433\u0440\u0430\u043c\u043c\u0430", 
+      "Price": 100, 
+      "Solved": false, 
+      "TaskId": 107
+    }, 
+    {
+      "CatId": 17, 
+      "Count": 13, 
+      "Name": "Birdy", 
+      "Price": 150, 
+      "Solved": false, 
+      "TaskId": 105
+    }, 
+    {
+      "CatId": 17, 
+      "Count": 1, 
+      "Name": "Another one cipher", 
+      "Price": 150, 
+      "Solved": false, 
+      "TaskId": 106
+    }, 
+    {
+      "CatId": 17, 
+      "Count": 5, 
+      "Name": "BookWorm", 
+      "Price": 200, 
+      "Solved": false, 
+      "TaskId": 100
+    }, 
+    {
+      "CatId": 17, 
+      "Count": 0, 
+      "Name": "\u0412 \u043f\u043e\u0440\u044f\u0434\u043a\u0435, \u0432 \u043f\u043e\u043b\u043d\u043e\u043c \u0430\u043b\u0444\u0430\u0432\u0438\u0442\u043d\u043e\u043c!", 
+      "Price": 300, 
+      "Solved": false, 
+      "TaskId": 108
+    }, 
+    {
+      "CatId": 17, 
+      "Count": 2, 
+      "Name": "RSA again", 
+      "Price": 500, 
+      "Solved": true, 
+      "TaskId": 99
+    }
+  ]
+}

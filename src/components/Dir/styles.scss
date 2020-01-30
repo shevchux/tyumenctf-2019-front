@@ -1,0 +1,49 @@
+.dir-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dir-head-content {
+  width: 100%;
+  background: rgb(242,244,242);
+  background: -moz-linear-gradient(left, rgba(242,244,242,1) 0%, rgba(238,234,214,1) 100%);
+  background: -webkit-linear-gradient(left, rgba(242,244,242,1) 0%,rgba(238,234,214,1) 100%);
+  background: linear-gradient(to right, rgba(242,244,242,1) 0%,rgba(238,234,214,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f4f2', endColorstr='#eeead6',GradientType=1 );
+}
+
+.dir-body-content {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.dir-body-left-content {
+  width: 40%;
+  height: 100%;
+  background: #6f8ddf;
+  word-break: break-all;
+  overflow: auto;
+  padding: 12px;
+  box-sizing: border-box;
+  position: relative;
+
+  &.dir-body-left-content-light {
+    background: inherit;
+    padding: 0;
+  }
+}
+
+
+.dir-body-right-content {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  word-break: break-all;
+  overflow: auto;
+}

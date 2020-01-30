@@ -1,0 +1,15 @@
+{
+  "GroupId": 4, 
+  "defaultLang": "Rus", 
+  "loggedIn": true, 
+  "logo": "images/logo/Pic_1.gif", 
+  "name": "Demo account", 
+  "teamid": 777, 
+  "s": 23,
+  "times": {
+    "afterContestEnds": 1554038639, 
+    "contestEnds": 1554038639, 
+    "contestStarts": 1554012000, 
+    "now": 1554019000
+  }
+}

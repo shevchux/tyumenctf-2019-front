@@ -1,0 +1,144 @@
+.ui-window {
+  display: flex!important;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+
+  &.ui-window-inactive {
+    .ui-window-head {
+      opacity: 0.6;
+    }
+
+    .ui-window-content {
+      border-left: 3px solid #668ee2;
+      border-bottom: 3px solid #5971dc;
+      border-right: 3px solid #5971dc;
+    }
+  }
+}
+
+
+.ui-window-content {
+  background: #ece9d8;
+  border-left: 3px solid #0b3cdd;
+  border-bottom: 3px solid #001b9c;
+  border-right: 3px solid #001b9c;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.ui-window-head {
+  height: 30px;
+  background: url("./window_bar.png") repeat-x;
+  position: relative;
+  border-radius: 10px 10px 0 0;
+
+  &:before {
+    content: "";
+    display: block;
+    float: left;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: url("./window_corners.png") no-repeat;
+    height: 30px;
+    width: 20px;
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    float: right;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background: url("./window_corners.png") no-repeat -20px;
+    height: 30px;
+    width: 20px;
+  }
+}
+
+.ui-window-head-content {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  color: #fff;
+  padding: 5px 6px;
+  box-sizing: border-box;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.ui-window-icon {
+  margin-right: 5px;
+  display: block;
+  float: left;
+  margin: 2px;
+}
+
+.ui-window-title {
+  display: block;
+  line-height: 21px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ui-window-head-buttons {
+  display: block;
+  float: right;
+  margin-top: -1px;
+}
+
+.ui-window-head-button {
+  font-size: 0;
+  border: 0;
+  color: transparent;
+  background: url("./window_buttons.png") no-repeat 0 0;
+  height: 21px;
+  width: 21px;
+  margin: 0;
+  margin-left: 3px;
+  padding: 0;
+  outline: none;
+
+  &:hover {
+    background-position: 0 -21px;
+  }
+
+  &.ui-window-head-button-hide {
+    background-position: 0 0;
+
+    &:hover {
+      background-position: 0 -21px;
+    }
+  }
+
+  &.ui-window-head-button-expand {
+    background-position: -21px 0;
+
+    &:hover {
+      background-position: -21px -21px;
+    }
+  }
+ 
+  &.ui-window-head-button-narrow {
+    background-position: -42px 0;
+
+    &:hover {
+      background-position: -42px -21px;
+    }
+  }
+
+  &.ui-window-head-button-close {
+    background-position: -63px 0;
+
+    &:hover {
+      background-position: -63px -21px;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": 777,
+  "name": "Demo account",
+  "groupId": 4,
+  "logo": "images/logo/Pic_1.gif",
+  "membersCount": 5,
+  "place": 2,
+  "score": 300,
+  "solvedTasks": [
+    {
+      "id": 96,
+      "name": "MoreCSS"
+    }
+  ]
+}

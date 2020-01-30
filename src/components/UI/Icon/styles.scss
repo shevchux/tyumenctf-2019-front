@@ -1,0 +1,245 @@
+@function get-icon-position($row-number, $col-number){
+  @return $col-number * -32px $row-number * -32px
+};
+
+@function get-small-icon-position($row-number, $col-number){
+  @return $col-number * -16px $row-number * -16px
+};
+
+.ui-icon {
+  height: 32px;
+  width: 32px;
+  background-image: url("./icons.png");
+  background-size: 576px 608px;
+
+  &.ui-icon-attention {
+    background-position: get-icon-position(6, 12);
+  }
+
+  &.ui-icon-volume-on {
+    background-position: get-icon-position(4, 6);
+  }
+
+  &.ui-icon-volume-off {
+    background-position: get-icon-position(4, 7);
+  }
+
+  &.ui-icon-logout-key {
+    background-position: get-icon-position(7, 0);
+  }
+
+  &.ui-icon-photo {
+    background-position: get-icon-position(15, 12);
+  }
+
+  &.ui-icon-folder {
+    background-position: get-icon-position(2, 4);
+  }
+
+  &.ui-icon-folder-misc {
+    background-position: get-icon-position(2, 5);
+  }
+
+  &.ui-icon-folder-crypto {
+    background-position: get-icon-position(2, 6);
+  }
+
+  &.ui-icon-folder-forensic {
+    background-position: get-icon-position(2, 9);
+  }
+
+  &.ui-icon-folder-stegano {
+    background-position: get-icon-position(2, 16);
+  }
+
+  &.ui-icon-folder-joy {
+    background-position: get-icon-position(3, 2);
+  }
+
+  &.ui-icon-folder-web {
+    background-position: get-icon-position(3, 3);
+  }
+
+  &.ui-icon-folder-pwn {
+    background-position: get-icon-position(3, 7);
+  }
+
+  &.ui-icon-folder-reverse {
+    background-position: get-icon-position(3, 8);
+  }
+
+  &.ui-icon-folder-ppc {
+    background-position: get-icon-position(2, 8);
+  }
+
+  &.ui-icon-folder-osint {
+    background-position: get-icon-position(3, 0);
+  }
+
+  &.ui-icon-task {
+    background-position: get-icon-position(7, 5);
+  }
+
+  &.ui-icon-task-solved {
+    background-position: get-icon-position(7, 7);
+  }
+
+  &.ui-icon-rules {
+    background-position: get-icon-position(10, 6);
+  }
+
+  &.ui-icon-question {
+    background-position: get-icon-position(7, 3);
+  }
+
+  &.ui-icon-star {
+    background-position: get-icon-position(0, 12);
+  }
+
+  &.ui-icon-lock {
+    background-position: get-icon-position(0, 7);
+  }
+
+  &.ui-icon-letter {
+    background-position: get-icon-position(0, 15);
+  }
+
+  &.ui-icon-execute {
+    background-position: get-icon-position(18, 2);
+  }
+
+  &.ui-icon-game-cube {
+    background-position: get-icon-position(9, 11);
+  }
+
+  &.ui-icon-refresh {
+    background-position: get-icon-position(14, 14);
+  }
+
+  &.ui-icon-group {
+    background-position: get-icon-position(11, 11);
+  }
+
+  &.ui-icon-attach {
+    background-position: get-icon-position(15, 8);
+  }
+}
+
+.ui-icon-small {
+  height: 16px;
+  width: 16px;
+  background-image: url("./icons.png");
+  background-size: 288px 304px;
+
+  &.ui-icon-attention {
+    background-position: get-small-icon-position(6, 12);
+  }
+
+  &.ui-icon-volume-on {
+    background-position: get-small-icon-position(4, 6);
+  }
+
+  &.ui-icon-volume-off {
+    background-position: get-small-icon-position(4, 7);
+  }
+
+  &.ui-icon-logout-key {
+    background-position: get-small-icon-position(7, 0);
+  }
+
+  &.ui-icon-photo {
+    background-position: get-small-icon-position(15, 12);
+  }
+
+  &.ui-icon-folder {
+    background-position: get-small-icon-position(2, 4);
+  }
+
+  &.ui-icon-folder-misc {
+    background-position: get-small-icon-position(2, 5);
+  }
+
+  &.ui-icon-folder-crypto {
+    background-position: get-small-icon-position(2, 6);
+  }
+
+  &.ui-icon-folder-forensic {
+    background-position: get-small-icon-position(2, 9);
+  }
+
+  &.ui-icon-folder-stegano {
+    background-position: get-small-icon-position(2, 16);
+  }
+
+  &.ui-icon-folder-ppc {
+    background-position: get-small-icon-position(2, 8);
+  }
+
+  &.ui-icon-folder-osint {
+    background-position: get-small-icon-position(3, 0);
+  }
+
+  &.ui-icon-folder-joy {
+    background-position: get-small-icon-position(3, 2);
+  }
+
+  &.ui-icon-folder-web {
+    background-position: get-small-icon-position(3, 3);
+  }
+
+  &.ui-icon-folder-pwn {
+    background-position: get-small-icon-position(3, 7);
+  }
+
+  &.ui-icon-folder-reverse {
+    background-position: get-small-icon-position(3, 8);
+  }
+
+  &.ui-icon-task {
+    background-position: get-small-icon-position(7, 5);
+  }
+
+  &.ui-icon-task-solved {
+    background-position: get-small-icon-position(7, 7);
+  }
+
+  &.ui-icon-rules {
+    background-position: get-small-icon-position(10, 6);
+  }
+
+  &.ui-icon-question {
+    background-position: get-small-icon-position(7, 3);
+  }
+
+  &.ui-icon-star {
+    background-position: get-small-icon-position(0, 12);
+  }
+
+  &.ui-icon-lock {
+    background-position: get-small-icon-position(0, 7);
+  }
+
+  &.ui-icon-letter {
+    background-position: get-small-icon-position(0, 15);
+  }
+
+  &.ui-icon-execute {
+    background-position: get-small-icon-position(18, 2);
+  }
+
+  &.ui-icon-game-cube {
+    background-position: get-small-icon-position(9, 11);
+  }
+
+  &.ui-icon-refresh {
+    background-position: get-small-icon-position(14, 14);
+  }
+
+  &.ui-icon-group {
+    background-position: get-small-icon-position(11, 11);
+  }
+
+  &.ui-icon-attach {
+    background-position: get-small-icon-position(15, 8);
+  }
+}

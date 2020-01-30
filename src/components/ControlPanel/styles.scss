@@ -1,0 +1,23 @@
+.cpanel-container {
+  width: 100%;
+  background: url("./taskbar.png") repeat-x;
+  color: #fff;
+  display: block;
+}
+
+.cpanel-left {
+  float: left;
+}
+
+.cpanel-tabs {
+  overflow: hidden;
+}
+
+.cpanel-pre-right {
+  float: right;
+  margin: 7px 10px 0;
+}
+
+.cpanel-right {
+  float: right;
+}

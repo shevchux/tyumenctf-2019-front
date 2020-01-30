@@ -1,0 +1,30 @@
+{
+  "CatId": 16, 
+  "Description": {
+    "En": "<p>html from <b>markdown</b> description</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos enim nemo animi, alias soluta vel consequatur! Dolore, perspiciatis enim. Ducimus, dicta incidunt aspernatur error quae molestias est beatae non expedita dolor laborum molestiae natus illo voluptatibus totam, nulla repellendus?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos enim nemo animi, alias soluta vel consequatur! Dolore, perspiciatis enim. Ducimus, dicta incidunt aspernatur error quae molestias est beatae non expedita dolor laborum molestiae natus illo voluptatibus totam, nulla repellendus?</p> ",
+    "Rus": "<p>html из <b>markdown</b> описания</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos enim nemo animi, alias soluta vel consequatur! Dolore, perspiciatis enim. Ducimus, dicta incidunt aspernatur error quae molestias est beatae non expedita dolor laborum molestiae natus illo voluptatibus totam, nulla repellendus?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos enim nemo animi, alias soluta vel consequatur! Dolore, perspiciatis enim. Ducimus, dicta incidunt aspernatur error quae molestias est beatae non expedita dolor laborum molestiae natus illo voluptatibus totam, nulla repellendus?</p>"
+  }, 
+  "Id": 96, 
+  "Name": "MoreCSS", 
+  "Price": 700, 
+  "Max_price": 1000,
+  "Min_price": 100,
+  "Solved": 1,
+  "Files": [
+    {
+      "Name": "File1.txt",
+      "Path": "#",
+      "Size": 123
+    }
+  ],
+  "WhoSolved": [
+    [1, "Team1"], 
+    [2, "Team2"],
+    [3, "Team3"],
+    [4, "Team4"],
+    [5, "Team5"],
+    [6, "Team6"],
+    [777, "Demo account"],
+    [8, "Team8"]
+  ]
+}

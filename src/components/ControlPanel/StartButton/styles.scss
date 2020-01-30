@@ -1,0 +1,42 @@
+.cpanel-start-button {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  color: transparent;
+  font-size: 0;
+  width: 102px;
+  height: 30px;
+  background: url("./start_button.png") no-repeat 0 0;
+
+  &:hover {
+    background-position: 0 -30px;
+  }
+
+  &.cpanel-start-button-ru {
+    background-position: -102px 0px;
+
+    &:hover {
+      background-position: -102px -30px;
+    }
+  }
+}
+
+.cpanel-start-menu-pointer {
+  position: relative;
+}
+
+.cpanel-start-menu {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  z-index: 9999999999;
+
+  +.cpanel-start-button {
+    background-position: 0 -61px!important;
+  }
+
+  +.cpanel-start-button-ru {
+    background-position: -102px -61px!important;
+  }
+}
