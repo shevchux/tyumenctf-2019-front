@@ -12,7 +12,7 @@
 * окунуться в атмосферу времен Windows XP.
 
 
-Онлайн демонстрация: [DEMO](http://shevchux.github.io/tyumenctf-2019-frontend).
+Онлайн демонстрация: [DEMO](http://shevchux.github.io/tyumenctf-2019-front).
 
 
 --------
