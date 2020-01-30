@@ -25,7 +25,7 @@
   "homepage": "https://github.com/shevchux/tyumenctf-2019-front#readme",
   "dependencies": {
     "@types/node": "^10.12.18",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "i18next": "^15.0.4",
     "i18next-browser-languagedetector": "^3.0.1",
     "marked": "^0.6.1",
